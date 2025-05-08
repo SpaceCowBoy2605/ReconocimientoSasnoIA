@@ -1,0 +1,16 @@
+# Ignorar todas las imágenes
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+
+# También ignora imágenes dentro de subcarpetas
+**/*.jpg
+**/*.jpeg
+**/*.png
+**/*.bmp
+**/*.gif
+
+# Pero sigue rastreando las carpetas (no ignores las carpetas vacías directamente)
+!.gitkeep
